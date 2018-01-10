@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MySpring.iml" filepath="$PROJECT_DIR$/MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_01MySpring/_01MySpring.iml" filepath="$PROJECT_DIR$/_01MySpring/_01MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02MyString/_02MyString.iml" filepath="$PROJECT_DIR$/_02MyString/_02MyString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03MySpring/_03MySpring.iml" filepath="$PROJECT_DIR$/_03MySpring/_03MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04MySpring/_04MySpring.iml" filepath="$PROJECT_DIR$/_04MySpring/_04MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05MySpring/_05MySpring.iml" filepath="$PROJECT_DIR$/_05MySpring/_05MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06MySpring/_06MySpring.iml" filepath="$PROJECT_DIR$/_06MySpring/_06MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07MySpring/_07MySpring.iml" filepath="$PROJECT_DIR$/_07MySpring/_07MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08MySpring/_08MySpring.iml" filepath="$PROJECT_DIR$/_08MySpring/_08MySpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09MySpring/_09MySpring.iml" filepath="$PROJECT_DIR$/_09MySpring/_09MySpring.iml" />
+    </modules>
+  </component>
+</project>

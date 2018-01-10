@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_01MySpring" />
+        <module name="_02MyString" />
+        <module name="_03MySpring" />
+        <module name="_04MySpring" />
+        <module name="_05MySpring" />
+        <module name="_06MySpring" />
+        <module name="_07MySpring" />
+        <module name="_08MySpring" />
+        <module name="_09MySpring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_01MySpring" target="1.5" />
+      <module name="_02MySpring" target="1.5" />
+      <module name="_02MyString" target="1.5" />
+      <module name="_03MySpring" target="1.5" />
+      <module name="_04MySpring" target="1.5" />
+      <module name="_05MySpring" target="1.5" />
+      <module name="_06MySpring" target="1.5" />
+      <module name="_07MySpring" target="1.5" />
+      <module name="_08MySpring" target="1.5" />
+      <module name="_09MySpring" target="1.5" />
+      <module name="MySpring" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
