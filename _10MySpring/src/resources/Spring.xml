@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="userDao" class="com.ld.dao.UserDaoImpl"/>
+
+    <bean id="myBeforeAdvice" class="com.ld.myadvice.MyBeforeAdvice"/>
+
+    <bean id="myAfterAdvice" class="com.ld.myadvice.MyAfterAdvice"/>
+
+    <bean id="myAroundAdvice" class="com.ld.myadvice.MyAroundAdvice"/>
+
+    <bean id="myException" class="com.ld.myadvice.MyExceptionAdvice"/>
+
+    <bean id="userProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="targetName" value="userDao"/>
+        <property name="interceptorNames">
+            <array>
+                <value>myBeforeAdvice</value>
+                <value>myAfterAdvice</value>
+                <value>myAroundAdvice</value>
+            </array>
+        </property>
+    </bean>
+
+
+    <bean id="exceptionProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--注册了目标对象-->
+        <property name="targetName" value="userDao"/>
+        <!--注册通知-->
+        <property name="interceptorNames">
+            <array>
+                <value>myException</value><!--异常通知-->
+            </array>
+        </property>
+    </bean>
+</beans>
+
