@@ -17,6 +17,10 @@
         <module>_09MySpring</module>
         <module>_10MySpring</module>
         <module>_11MySpring</module>
+        <module>_12MyStpring</module>
+        <module>_13MySpring</module>
+        <module>_14MySpring</module>
+        <module>_15MySpring</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -17,6 +17,10 @@
         <module name="_09MySpring" />
         <module name="_10MySpring" />
         <module name="_11MySpring" />
+        <module name="_12MyStpring" />
+        <module name="_13MySpring" />
+        <module name="_14MySpring" />
+        <module name="_15MySpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +36,10 @@
       <module name="_09MySpring" target="1.5" />
       <module name="_10MySpring" target="1.5" />
       <module name="_11MySpring" target="1.5" />
+      <module name="_12MyStpring" target="1.5" />
+      <module name="_13MySpring" target="1.5" />
+      <module name="_14MySpring" target="1.5" />
+      <module name="_15MySpring" target="1.5" />
       <module name="MySpring" target="1.5" />
     </bytecodeTargetLevel>
   </component>
